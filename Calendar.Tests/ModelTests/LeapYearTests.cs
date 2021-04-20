@@ -29,7 +29,7 @@ namespace Calendar.TestTools
     public void IsLeapYear_MultiplesOfFourHundred_True()
     {
       LeapYear testLeapYear = new LeapYear();
-      Assert.AreEqual(true, testLeapYear.IsLeapYear(200));
+      Assert.AreEqual(true, testLeapYear.IsLeapYear(400));
     }
   }
 }
